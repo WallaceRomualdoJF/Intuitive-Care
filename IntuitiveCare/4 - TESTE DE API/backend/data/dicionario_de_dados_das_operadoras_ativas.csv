@@ -1,0 +1,27 @@
+PLANO DE DADOS ABERTOS,Unnamed: 1,Unnamed: 2,Unnamed: 3
+,,,
+TÍTULO DO CONJUNTO DE DADOS: Operadoras de planos de saúde com registro ativo,,,
+ÁREA RESPONSÁVEL (DIRETORIA): Diretoria de Normas e Habilitação das Operadoras,,,
+DATA: Dezembro_2022,,,
+,,,
+Nome  do Campo,Tipo,Tamanho,Descrição
+REGISTRO_OPERADORA,Texto,6,Registro de operadora de plano privado de assistência àsaúde concedido pela ANS à pessoa jurídica para operação no setor de saúde suplementar
+CNPJ,Texto,14,CNPJ da Operadora
+Razao_Social,Texto,140,Razão Social da Operadora
+Nome_Fantasia,Texto,140,Nome Fantasia da Operadora
+Modalidade,Texto,2,Classificação das operadoras deplanos privados de assistência à saúde de acordo com seu estatuto jurídico.
+Logradouro,Texto,40,Endereço da Sede da Operadora
+Número,Texto,20,Número do Endereço da Sede da Operadora
+Complemento,Texto,40,Complemento do Endereço da Sede da Operadora
+Bairro,Texto,30,Bairro do Endereço da Sede da Operadora
+Cidade,Texto,30,Cidade do Endereço da Sede da Operadora
+UF,Texto,2,Estado do Endereço da Sede da Operadora
+CEP,Texto,8,CEP do Endereço da Sede da Operadora
+DDD,Texto,4,Código de DDD da Operadora
+Telefone,Texto,20,Numero de Telefone da Operadora
+Fax,Texto,20,Numero de Fax da Operadora
+Endereco_eletronico,Texto,255,e-mail da Operadora
+Representante,Texto,50,Representante Legal da Operadora
+Cargo_Representante,Texto,40,Cargo do Representante Legal da Operadora
+Regiao_de_Comercializacao,Numero,1,"Área onde a operadora de plano privado de assistência à saúde comercializa ou disponibiliza seu plano de saúde, nos termos do Anexo I da Resolução Normativa nº 209/2009, da ANS.• Região 1: em todo o território nacional ou em grupos de pelo menos três estados dentre os seguintes: São Paulo, Rio de Janeiro, Minas Gerais, Rio Grande do Sul, Paraná e Bahia;• Região 2: no Estado de São Paulo ou em mais de um estado, excetuando os grupos definidos no critério da região 1;• Região 3: em um único estado, qualquer que seja ele, excetuando-se o Estado de São Paulo;• Região 4: no Município de São Paulo, do Rio de Janeiro, de Belo Horizonte, de Porto Alegre ou de Curitiba ou de Brasília;• Região 5: em grupo de municípios, excetuando os definidos na região 4; e• Região 6: em um único município, excetuando os definidos na região 4."
+Data_Registro_ANS,Data,8,Data do Registro da Operadora na ANS (formato AAAA-MM-DD)
